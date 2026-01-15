@@ -1,4 +1,4 @@
-import { Layout } from "@/components/layout/Layout";
+import { Layout } from "@/components/layouts/Layout";
 import { Shield, Eye, Lock, AlertTriangle, Scale, FileText } from "lucide-react";
 
 const sections = [

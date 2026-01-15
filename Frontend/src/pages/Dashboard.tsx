@@ -1,4 +1,4 @@
-import { Layout } from "@/components/layout/Layout";
+import { Layout } from "@/components/layouts/Layout";
 import { Badge } from "@/components/ui/badge";
 import {
   Select,

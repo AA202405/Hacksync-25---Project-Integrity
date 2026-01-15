@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Layout } from "@/components/layout/Layout";
+import { Layout } from "@/components/layouts/Layout";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -234,7 +234,7 @@ export default function Chatbot() {
   const renderMarkdown = (content: string) => {
     return content.split("\n").map((line, i) => {
       // Bold text
-      let processed = line.split(/(\*\*.*?\*\*)/).map((part, j) => {
+      const processed = line.split(/(\*\*.*?\*\*)/).map((part, j) => {
         if (part.startsWith("**") && part.endsWith("**")) {
           return <strong key={j}>{part.slice(2, -2)}</strong>;
         }
