@@ -1,0 +1,308 @@
+[
+  {
+    "project_id": "PRJ-2024-0847",
+    "name": "NH-44 Highway Resurfacing - Phase 2",
+    "type": "roads",
+    "budget": 457000000,
+    "contractor": "ABC Infrastructure Pvt. Ltd.",
+    "location": {
+      "lat": 19.1136,
+      "lng": 72.8697,
+      "address": "Sector 12-14, North District, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2023-06-01",
+    "completion_date": "2024-03-15",
+    "ward": "Ward 15",
+    "description": "Highway resurfacing project covering 8.5 km stretch"
+  },
+  {
+    "project_id": "PRJ-2024-0923",
+    "name": "Municipal Drainage System Upgrade",
+    "type": "water",
+    "budget": 128000000,
+    "contractor": "Urban Solutions Pvt Ltd",
+    "location": {
+      "lat": 19.0726,
+      "lng": 72.8845,
+      "address": "Old City Area, Kurla, Mumbai"
+    },
+    "status": "Delayed",
+    "start_date": "2023-08-01",
+    "completion_date": "2024-12-31",
+    "ward": "Ward 8",
+    "description": "Drainage system upgrade and water logging prevention"
+  },
+  {
+    "project_id": "PRJ-2024-1056",
+    "name": "LED Street Lighting Project",
+    "type": "lighting",
+    "budget": 85000000,
+    "contractor": "Green Energy Corp",
+    "location": {
+      "lat": 19.1364,
+      "lng": 72.8296,
+      "address": "Ward 22, South District, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2023-03-01",
+    "completion_date": "2024-09-15",
+    "ward": "Ward 22",
+    "description": "Installation of LED streetlights across 5 km stretch"
+  },
+  {
+    "project_id": "PRJ-2024-1124",
+    "name": "Community Health Center Construction",
+    "type": "buildings",
+    "budget": 220000000,
+    "contractor": "Metro Builders",
+    "location": {
+      "lat": 19.0860,
+      "lng": 72.9081,
+      "address": "Ward 5, East Zone, Ghatkopar, Mumbai"
+    },
+    "status": "Ongoing",
+    "start_date": "2024-02-01",
+    "completion_date": "2026-08-30",
+    "ward": "Ward 5",
+    "description": "Construction of 3-story community health center"
+  },
+  {
+    "project_id": "PRJ-2024-1201",
+    "name": "Water Pipeline Network Upgrade",
+    "type": "water",
+    "budget": 356000000,
+    "contractor": "Aqua Systems Inc",
+    "location": {
+      "lat": 19.1663,
+      "lng": 72.8526,
+      "address": "Ward 12, West District, Goregaon, Mumbai"
+    },
+    "status": "Ongoing",
+    "start_date": "2024-04-01",
+    "completion_date": "2025-10-31",
+    "ward": "Ward 12",
+    "description": "Upgrade of water pipeline network covering 12 km"
+  },
+  {
+    "project_id": "PRJ-2024-1305",
+    "name": "Public Park Renovation",
+    "type": "parks",
+    "budget": 42000000,
+    "contractor": "Green Spaces Ltd",
+    "location": {
+      "lat": 19.0176,
+      "lng": 72.8562,
+      "address": "Ward 3, Central Zone, Dadar, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2024-01-10",
+    "completion_date": "2024-08-20",
+    "ward": "Ward 3",
+    "description": "Renovation of public park with new facilities"
+  },
+  {
+    "project_id": "PRJ-2024-1402",
+    "name": "Road Widening - Andheri East",
+    "type": "roads",
+    "budget": 250000000,
+    "contractor": "ABC Infrastructure Pvt. Ltd.",
+    "location": {
+      "lat": 19.1136,
+      "lng": 72.8697,
+      "address": "Andheri East, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2023-12-01",
+    "completion_date": "2024-11-20",
+    "ward": "Ward 15",
+    "description": "Road widening project covering 4.2 km"
+  },
+  {
+    "project_id": "PRJ-2024-1508",
+    "name": "Bridge Construction - Sion",
+    "type": "bridges",
+    "budget": 500000000,
+    "contractor": "Metro Builders",
+    "location": {
+      "lat": 19.0464,
+      "lng": 72.8619,
+      "address": "Sion, Mumbai"
+    },
+    "status": "Ongoing",
+    "start_date": "2024-01-15",
+    "completion_date": "2025-12-31",
+    "ward": "Ward 11",
+    "description": "Construction of new bridge over railway tracks"
+  },
+  {
+    "project_id": "PRJ-2024-1612",
+    "name": "Sanitation System Upgrade",
+    "type": "sanitation",
+    "budget": 180000000,
+    "contractor": "Urban Solutions Pvt Ltd",
+    "location": {
+      "lat": 19.0596,
+      "lng": 72.8295,
+      "address": "Bandra West, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2023-09-01",
+    "completion_date": "2024-10-30",
+    "ward": "Ward 7",
+    "description": "Upgrade of sanitation and sewage system"
+  },
+  {
+    "project_id": "PRJ-2024-1720",
+    "name": "Footpath Reconstruction - Borivali",
+    "type": "roads",
+    "budget": 120000000,
+    "contractor": "UrbanFix Ltd",
+    "location": {
+      "lat": 19.2290,
+      "lng": 72.8567,
+      "address": "Borivali West, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2024-02-15",
+    "completion_date": "2024-10-05",
+    "ward": "Ward 20",
+    "description": "Reconstruction of footpaths with proper tiles"
+  },
+  {
+    "project_id": "PRJ-2024-1825",
+    "name": "Road Resurfacing - Chembur",
+    "type": "roads",
+    "budget": 240000000,
+    "contractor": "Highway Solutions",
+    "location": {
+      "lat": 19.0626,
+      "lng": 72.9005,
+      "address": "Chembur, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2024-03-01",
+    "completion_date": "2024-12-01",
+    "ward": "Ward 9",
+    "description": "Complete resurfacing of main road"
+  },
+  {
+    "project_id": "PRJ-2024-1930",
+    "name": "Drainage Upgrade - Ghatkopar",
+    "type": "water",
+    "budget": 350000000,
+    "contractor": "MetroBuild Co.",
+    "location": {
+      "lat": 19.0860,
+      "lng": 72.9081,
+      "address": "Ghatkopar, Mumbai"
+    },
+    "status": "Ongoing",
+    "start_date": "2024-05-01",
+    "completion_date": "2025-06-30",
+    "ward": "Ward 5",
+    "description": "Major drainage system upgrade"
+  },
+  {
+    "project_id": "PRJ-2024-2045",
+    "name": "Road Repair - Vikhroli",
+    "type": "roads",
+    "budget": 200000000,
+    "contractor": "CityRoad Builders",
+    "location": {
+      "lat": 19.1100,
+      "lng": 72.9350,
+      "address": "Vikhroli, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2024-01-20",
+    "completion_date": "2024-09-18",
+    "ward": "Ward 13",
+    "description": "Comprehensive road repair and pothole filling"
+  },
+  {
+    "project_id": "PRJ-2024-2150",
+    "name": "Streetlight Repair - Andheri West",
+    "type": "lighting",
+    "budget": 80000000,
+    "contractor": "UrbanFix Ltd",
+    "location": {
+      "lat": 19.1364,
+      "lng": 72.8296,
+      "address": "Andheri West, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2024-06-01",
+    "completion_date": "2024-12-15",
+    "ward": "Ward 16",
+    "description": "Repair and replacement of streetlights"
+  },
+  {
+    "project_id": "PRJ-2024-2265",
+    "name": "Road Repair - Colaba",
+    "type": "roads",
+    "budget": 260000000,
+    "contractor": "SouthMumbai Infra",
+    "location": {
+      "lat": 18.9067,
+      "lng": 72.8147,
+      "address": "Colaba, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2024-02-10",
+    "completion_date": "2024-10-28",
+    "ward": "Ward 1",
+    "description": "Road repair and resurfacing in heritage area"
+  },
+  {
+    "project_id": "PRJ-2024-2380",
+    "name": "Pothole Fixing - Mulund",
+    "type": "roads",
+    "budget": 170000000,
+    "contractor": "RoadWorks India",
+    "location": {
+      "lat": 19.1726,
+      "lng": 72.9560,
+      "address": "Mulund West, Mumbai"
+    },
+    "status": "Ongoing",
+    "start_date": "2024-07-01",
+    "completion_date": "2025-03-31",
+    "ward": "Ward 21",
+    "description": "Comprehensive pothole fixing across multiple roads"
+  },
+  {
+    "project_id": "PRJ-2024-2495",
+    "name": "Water Supply Pipeline - Malad",
+    "type": "water",
+    "budget": 280000000,
+    "contractor": "Aqua Systems Inc",
+    "location": {
+      "lat": 19.1864,
+      "lng": 72.8484,
+      "address": "Malad West, Mumbai"
+    },
+    "status": "Ongoing",
+    "start_date": "2024-08-01",
+    "completion_date": "2025-11-30",
+    "ward": "Ward 19",
+    "description": "New water supply pipeline installation"
+  },
+  {
+    "project_id": "PRJ-2024-2510",
+    "name": "Building Renovation - School",
+    "type": "buildings",
+    "budget": 150000000,
+    "contractor": "Metro Builders",
+    "location": {
+      "lat": 19.1176,
+      "lng": 72.9057,
+      "address": "Powai, Mumbai"
+    },
+    "status": "Completed",
+    "start_date": "2023-11-01",
+    "completion_date": "2024-08-15",
+    "ward": "Ward 14",
+    "description": "Renovation of government school building"
+  }
+]

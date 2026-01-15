@@ -1,0 +1,106 @@
+# ======================
+# Node / JS
+# ======================
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# Environment variables
+# ======================
+.env
+.env.local
+.env.*.local
+
+# ======================
+# Uploads
+# ======================
+uploads/**/*
+!uploads/.gitkeep
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ======================
+# Build outputs
+# ======================
+dist/
+build/
+
+# ======================
+# Python specific
+# ======================
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+.env/
+.venv/
+venv*/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Python packaging / builds
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Python runtime files
+*.pyo
+*.pyd
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Django / Flask
+*.sqlite3
+db.sqlite3
+instance/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ======================
+# Testing / Coverage
+# ======================
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# ======================
+# Cache & Temp
+# ======================
+.cache/
+.tmp/
+temp/

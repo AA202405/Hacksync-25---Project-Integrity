@@ -1,0 +1,218 @@
+[
+  {
+    "evidence_id": "EV-001",
+    "project_id": "PRJ-2024-0847",
+    "issue_type": "Pothole",
+    "severity": "High",
+    "description": "Large pothole observed on resurfaced road surface",
+    "location": {
+      "lat": 19.1137,
+      "lng": 72.8698
+    },
+    "timestamp": "2024-04-10T14:30:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "pothole_evidence_1.jpg",
+      "size": 2456789,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-002",
+    "project_id": "PRJ-2024-0847",
+    "issue_type": "Crack",
+    "severity": "Medium",
+    "description": "Surface cracking suggests potential material quality concerns",
+    "location": {
+      "lat": 19.1136,
+      "lng": 72.8697
+    },
+    "timestamp": "2024-04-15T10:20:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "crack_evidence_1.jpg",
+      "size": 1892345,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-003",
+    "project_id": "PRJ-2024-0923",
+    "issue_type": "Water Logging",
+    "severity": "High",
+    "description": "Water pooling observed, drainage appears non-functional",
+    "location": {
+      "lat": 19.0726,
+      "lng": 72.8845
+    },
+    "timestamp": "2024-11-05T16:45:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "waterlogging_evidence_1.jpg",
+      "size": 3124567,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-004",
+    "project_id": "PRJ-2024-1056",
+    "issue_type": "Incomplete Work",
+    "severity": "Low",
+    "description": "Some streetlights not functioning after completion",
+    "location": {
+      "lat": 19.1364,
+      "lng": 72.8296
+    },
+    "timestamp": "2024-10-01T20:15:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "lighting_issue_1.jpg",
+      "size": 1567890,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-005",
+    "project_id": "PRJ-2024-1305",
+    "issue_type": "Structural Damage",
+    "severity": "Medium",
+    "description": "Footpath tiles broken and uneven surface",
+    "location": {
+      "lat": 19.0176,
+      "lng": 72.8562
+    },
+    "timestamp": "2024-09-10T11:30:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "footpath_damage_1.jpg",
+      "size": 2234567,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-006",
+    "project_id": "PRJ-2024-1402",
+    "issue_type": "Crack",
+    "severity": "Low",
+    "description": "Minor cracks visible on road surface",
+    "location": {
+      "lat": 19.1136,
+      "lng": 72.8697
+    },
+    "timestamp": "2024-12-01T09:20:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "crack_evidence_2.jpg",
+      "size": 1789012,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-007",
+    "project_id": "PRJ-2024-1612",
+    "issue_type": "Incomplete Work",
+    "severity": "Medium",
+    "description": "Sanitation work appears incomplete in certain areas",
+    "location": {
+      "lat": 19.0596,
+      "lng": 72.8295
+    },
+    "timestamp": "2024-11-15T14:10:00Z",
+    "reporter_type": "official",
+    "image_metadata": {
+      "filename": "sanitation_incomplete_1.jpg",
+      "size": 2456789,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-008",
+    "project_id": "PRJ-2024-1720",
+    "issue_type": "Structural Damage",
+    "severity": "High",
+    "description": "Footpath tiles broken and unsafe for pedestrians",
+    "location": {
+      "lat": 19.2290,
+      "lng": 72.8567
+    },
+    "timestamp": "2024-10-20T15:45:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "footpath_damage_2.jpg",
+      "size": 2890123,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-009",
+    "project_id": "PRJ-2024-1930",
+    "issue_type": "Water Logging",
+    "severity": "Critical",
+    "description": "Severe water logging after rainfall, drainage system not functioning",
+    "location": {
+      "lat": 19.0860,
+      "lng": 72.9081
+    },
+    "timestamp": "2024-12-10T18:30:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "waterlogging_critical_1.jpg",
+      "size": 3456789,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-010",
+    "project_id": "PRJ-2024-2045",
+    "issue_type": "Pothole",
+    "severity": "Medium",
+    "description": "Pothole reappeared after repair work",
+    "location": {
+      "lat": 19.1100,
+      "lng": 72.9350
+    },
+    "timestamp": "2024-10-05T12:15:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "pothole_reappeared_1.jpg",
+      "size": 2123456,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-011",
+    "project_id": "PRJ-2024-2265",
+    "issue_type": "Crack",
+    "severity": "Medium",
+    "description": "Road surface showing cracks and deterioration",
+    "location": {
+      "lat": 18.9067,
+      "lng": 72.8147
+    },
+    "timestamp": "2024-11-20T10:30:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "crack_evidence_3.jpg",
+      "size": 1987654,
+      "format": "JPEG"
+    }
+  },
+  {
+    "evidence_id": "EV-012",
+    "project_id": "PRJ-2024-2380",
+    "issue_type": "Pothole",
+    "severity": "High",
+    "description": "Multiple potholes observed during ongoing work",
+    "location": {
+      "lat": 19.1726,
+      "lng": 72.9560
+    },
+    "timestamp": "2024-12-15T13:20:00Z",
+    "reporter_type": "citizen",
+    "image_metadata": {
+      "filename": "pothole_multiple_1.jpg",
+      "size": 2678901,
+      "format": "JPEG"
+    }
+  }
+]

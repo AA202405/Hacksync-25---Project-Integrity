@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -14,9 +15,37 @@ import {
   ExternalLink,
   Download,
 } from "lucide-react";
-import { useState } from "react";
+import { api } from "@/lib/api";
 
-const auditResult = {
+interface Discrepancy {
+  id: number;
+  type: string;
+  official: string;
+  observed: string;
+  severity: "low" | "medium" | "high" | "critical" | string;
+  confidence: number;
+}
+
+interface EvidenceSource {
+  type: "citizen" | "official" | string;
+  count: number;
+  date?: string;
+}
+
+interface AuditResult {
+  projectId: string;
+  projectName: string;
+  location: string;
+  contractor: string;
+  officialBudget: string;
+  expectedCompletion: string;
+  status: "compliant" | "suspect" | "non-compliant" | string;
+  riskScore: number;
+  discrepancies: Discrepancy[];
+  evidenceSources: EvidenceSource[];
+}
+
+const defaultAuditResult: AuditResult = {
   projectId: "PRJ-2024-0847",
   projectName: "NH-44 Highway Resurfacing - Phase 2",
   location: "Sector 12-14, North District",
@@ -80,7 +109,61 @@ const statusConfig = {
 
 export default function AIAudit() {
   const [expandedDiscrepancy, setExpandedDiscrepancy] = useState<number | null>(1);
-  const config = statusConfig[auditResult.status as keyof typeof statusConfig];
+  const [auditResult, setAuditResult] = useState<AuditResult>(defaultAuditResult);
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    const fetchAudit = async () => {
+      try {
+        setIsLoading(true);
+        const response = await api.post("/api/audit/run", {
+          project_id: "PRJ-2024-0847",
+        });
+
+        const data = response.data?.data;
+        if (!data) return;
+
+        const mapped: AuditResult = {
+          projectId: data.project_id,
+          projectName: data.project_name,
+          location: data.location,
+          contractor: data.contractor,
+          officialBudget: data.official_budget,
+          expectedCompletion: data.expected_completion,
+          status: data.status,
+          riskScore: data.risk_score,
+          discrepancies: (data.discrepancies || []).map(
+            (disc: any, idx: number): Discrepancy => ({
+              id: idx + 1,
+              type: disc.type,
+              official: disc.official,
+              observed: disc.observed,
+              severity: disc.severity,
+              confidence: disc.confidence,
+            })
+          ),
+          evidenceSources:
+            data.evidence_sources?.map((src: any) => ({
+              type: src.type,
+              count: src.count,
+              date: src.date,
+            })) ?? defaultAuditResult.evidenceSources,
+        };
+
+        setAuditResult(mapped);
+      } catch (error) {
+        // eslint-disable-next-line no-console
+        console.error("Failed to fetch audit result", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    void fetchAudit();
+  }, []);
+
+  const config = statusConfig[auditResult.status as keyof typeof statusConfig] ??
+    statusConfig.suspect;
 
   return (
     <Layout>
@@ -133,7 +216,7 @@ export default function AIAudit() {
                     AI Audit Assessment
                   </h2>
                   <Badge variant="outline" className="text-xs">
-                    Last updated: 2 hours ago
+                    {isLoading ? "Running audit..." : "Last updated: just now"}
                   </Badge>
                 </div>
 

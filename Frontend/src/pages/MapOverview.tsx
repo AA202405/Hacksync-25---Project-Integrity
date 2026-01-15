@@ -24,8 +24,22 @@ import {
 } from "lucide-react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
+import { api } from "@/lib/api";
 
-const mockProjects = [
+type ProjectStatus = "compliant" | "suspect" | "non-compliant";
+
+interface Project {
+  id: string | number;
+  name: string;
+  location: string;
+  status: ProjectStatus;
+  type: string;
+  reports: number;
+  lastUpdated: string;
+  coordinates: [number, number];
+}
+
+const mockProjects: Project[] = [
   {
     id: 1,
     name: "NH-44 Road Widening Project",
@@ -100,20 +114,50 @@ const statusConfig = {
 };
 
 export default function MapOverview() {
-  const [selectedProject, setSelectedProject] = useState<number | null>(null);
+  const [selectedProject, setSelectedProject] = useState<string | number | null>(null);
   const [mapboxToken, setMapboxToken] = useState<string>("");
   const [isMapReady, setIsMapReady] = useState(false);
   const [typeFilter, setTypeFilter] = useState("all");
   const [statusFilter, setStatusFilter] = useState("all-status");
+  const [projects, setProjects] = useState<Project[]>(mockProjects);
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markers = useRef<mapboxgl.Marker[]>([]);
 
-  const filteredProjects = mockProjects.filter((project) => {
+  const filteredProjects = projects.filter((project) => {
     if (typeFilter !== "all" && project.type !== typeFilter) return false;
     if (statusFilter !== "all-status" && project.status !== statusFilter) return false;
     return true;
   });
+
+  useEffect(() => {
+    // Fetch map data from backend once on mount
+    const fetchMapData = async () => {
+      try {
+        const response = await api.get("/api/map/data");
+        const data = response.data?.data as any[] | undefined;
+        if (!data || !Array.isArray(data)) return;
+
+        const mapped: Project[] = data.map((p, index) => ({
+          id: p.id ?? index + 1,
+          name: p.name,
+          location: p.location?.ward ?? p.name,
+          status: (p.verdict as ProjectStatus) ?? "compliant",
+          type: p.type ?? "roads",
+          reports: p.reports ?? 0,
+          lastUpdated: "recently",
+          coordinates: [p.location?.lng ?? 72.8777, p.location?.lat ?? 19.0760],
+        }));
+
+        setProjects(mapped);
+      } catch (error) {
+        // eslint-disable-next-line no-console
+        console.error("Failed to fetch map data", error);
+      }
+    };
+
+    void fetchMapData();
+  }, []);
 
   useEffect(() => {
     if (!mapContainer.current || !mapboxToken || map.current) return;

@@ -1,0 +1,164 @@
+[
+  {
+    "project_id": "MH-RD-001",
+    "project_name": "Road Repair - Andheri East",
+    "budget": 2500000,
+    "contractor": "ABC Infra Pvt Ltd",
+    "status": "Completed",
+    "location": {
+      "area": "Andheri East",
+      "city": "Mumbai",
+      "lat": 19.1136,
+      "lng": 72.8697
+    },
+    "completion_date": "2025-12-10"
+  },
+  {
+    "project_id": "MH-RD-002",
+    "project_name": "Pothole Fixing - Bandra West",
+    "budget": 1800000,
+    "contractor": "RoadWorks India",
+    "status": "Ongoing",
+    "location": {
+      "area": "Bandra West",
+      "city": "Mumbai",
+      "lat": 19.0596,
+      "lng": 72.8295
+    },
+    "completion_date": null
+  },
+  {
+    "project_id": "MH-RD-003",
+    "project_name": "Drainage Upgrade - Kurla",
+    "budget": 3200000,
+    "contractor": "MetroBuild Co.",
+    "status": "Completed",
+    "location": {
+      "area": "Kurla",
+      "city": "Mumbai",
+      "lat": 19.0726,
+      "lng": 72.8845
+    },
+    "completion_date": "2025-11-20"
+  },
+  {
+    "project_id": "MH-RD-004",
+    "project_name": "Footpath Reconstruction - Dadar",
+    "budget": 900000,
+    "contractor": "UrbanFix Ltd",
+    "status": "Completed",
+    "location": {
+      "area": "Dadar",
+      "city": "Mumbai",
+      "lat": 19.0176,
+      "lng": 72.8562
+    },
+    "completion_date": "2025-10-15"
+  },
+  {
+    "project_id": "MH-RD-005",
+    "project_name": "Road Resurfacing - Powai",
+    "budget": 2700000,
+    "contractor": "Highway Solutions",
+    "status": "Ongoing",
+    "location": {
+      "area": "Powai",
+      "city": "Mumbai",
+      "lat": 19.1176,
+      "lng": 72.9057
+    },
+    "completion_date": null
+  }
+  ,
+{
+  "project_id": "MH-RD-006",
+  "project_name": "Road Repair - Goregaon East",
+  "budget": 2100000,
+  "contractor": "CityRoad Builders",
+  "status": "Completed",
+  "location": { "area": "Goregaon East", "city": "Mumbai", "lat": 19.1663, "lng": 72.8526 },
+  "completion_date": "2025-11-30"
+},
+{
+  "project_id": "MH-RD-007",
+  "project_name": "Pothole Fixing - Malad West",
+  "budget": 1600000,
+  "contractor": "RoadWorks India",
+  "status": "Ongoing",
+  "location": { "area": "Malad West", "city": "Mumbai", "lat": 19.1864, "lng": 72.8484 },
+  "completion_date": null
+},
+{
+  "project_id": "MH-RD-008",
+  "project_name": "Footpath Reconstruction - Borivali",
+  "budget": 1200000,
+  "contractor": "UrbanFix Ltd",
+  "status": "Completed",
+  "location": { "area": "Borivali West", "city": "Mumbai", "lat": 19.2290, "lng": 72.8567 },
+  "completion_date": "2025-10-05"
+},
+{
+  "project_id": "MH-RD-009",
+  "project_name": "Drainage Upgrade - Ghatkopar",
+  "budget": 3500000,
+  "contractor": "MetroBuild Co.",
+  "status": "Ongoing",
+  "location": { "area": "Ghatkopar", "city": "Mumbai", "lat": 19.0860, "lng": 72.9081 },
+  "completion_date": null
+},
+{
+  "project_id": "MH-RD-010",
+  "project_name": "Road Resurfacing - Chembur",
+  "budget": 2400000,
+  "contractor": "Highway Solutions",
+  "status": "Completed",
+  "location": { "area": "Chembur", "city": "Mumbai", "lat": 19.0626, "lng": 72.9005 },
+  "completion_date": "2025-12-01"
+},
+{
+  "project_id": "MH-RD-011",
+  "project_name": "Bridge Maintenance - Sion",
+  "budget": 5000000,
+  "contractor": "ABC Infra Pvt Ltd",
+  "status": "Ongoing",
+  "location": { "area": "Sion", "city": "Mumbai", "lat": 19.0464, "lng": 72.8619 },
+  "completion_date": null
+},
+{
+  "project_id": "MH-RD-012",
+  "project_name": "Road Repair - Vikhroli",
+  "budget": 2000000,
+  "contractor": "CityRoad Builders",
+  "status": "Completed",
+  "location": { "area": "Vikhroli", "city": "Mumbai", "lat": 19.1100, "lng": 72.9350 },
+  "completion_date": "2025-09-18"
+},
+{
+  "project_id": "MH-RD-013",
+  "project_name": "Streetlight Repair - Andheri West",
+  "budget": 800000,
+  "contractor": "UrbanFix Ltd",
+  "status": "Completed",
+  "location": { "area": "Andheri West", "city": "Mumbai", "lat": 19.1364, "lng": 72.8296 },
+  "completion_date": "2025-12-15"
+},
+{
+  "project_id": "MH-RD-014",
+  "project_name": "Road Repair - Colaba",
+  "budget": 2600000,
+  "contractor": "SouthMumbai Infra",
+  "status": "Completed",
+  "location": { "area": "Colaba", "city": "Mumbai", "lat": 18.9067, "lng": 72.8147 },
+  "completion_date": "2025-10-28"
+},
+{
+  "project_id": "MH-RD-015",
+  "project_name": "Pothole Fixing - Mulund",
+  "budget": 1700000,
+  "contractor": "RoadWorks India",
+  "status": "Ongoing",
+  "location": { "area": "Mulund West", "city": "Mumbai", "lat": 19.1726, "lng": 72.9560 },
+  "completion_date": null
+}
+
+]

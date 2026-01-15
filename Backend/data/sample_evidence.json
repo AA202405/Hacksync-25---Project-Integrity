@@ -1,0 +1,263 @@
+[
+  {
+    "evidence_id": "EV-001",
+    "project_id": "MH-RD-004",
+    "issue_type": "Minor Crack",
+    "severity": "Low",
+    "timestamp": "2026-01-14 14:20",
+    "location": {
+      "area": "Dadar",
+      "lat": 19.0176,
+      "lng": 72.8562
+    },
+    "media": {
+      "image_path": "uploads/dadar_crack.jpg"
+    }
+  },
+  {
+    "evidence_id": "EV-002",
+    "project_id": "MH-RD-002",
+    "issue_type": "Uneven Surface",
+    "severity": "Medium",
+    "timestamp": "2026-01-14 15:10",
+    "location": {
+      "area": "Bandra West",
+      "lat": 19.0596,
+      "lng": 72.8295
+    },
+    "media": {
+      "image_path": "uploads/bandra_surface.jpg"
+    }
+  },
+  {
+    "evidence_id": "EV-003",
+    "project_id": "MH-RD-001",
+    "issue_type": "Pothole",
+    "severity": "High",
+    "timestamp": "2026-01-14 16:30",
+    "location": {
+      "area": "Andheri East",
+      "lat": 19.1137,
+      "lng": 72.8698
+    },
+    "media": {
+      "image_path": "uploads/andheri_pothole.jpg"
+    }
+  }
+
+  ,
+{
+  "evidence_id": "EV-004",
+  "project_id": "MH-RD-003",
+  "issue_type": "Water Logging / Poor Drainage",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 17:45",
+  "location": {
+    "area": "Kurla",
+    "lat": 19.0726,
+    "lng": 72.8845
+  },
+  "media": {
+    "image_path": "uploads/kurla_drainage.jpg"
+  }
+},
+{
+  "evidence_id": "EV-005",
+  "project_id": "MH-RD-005",
+  "issue_type": "Incomplete Resurfacing",
+  "severity": "Low",
+  "timestamp": "2026-01-14 18:10",
+  "location": {
+    "area": "Powai",
+    "lat": 19.1176,
+    "lng": 72.9057
+  },
+  "media": {
+    "image_path": "uploads/powai_resurfacing.jpg"
+  }
+}
+,
+{
+  "evidence_id": "EV-006",
+  "project_id": "MH-RD-001",
+  "issue_type": "Uneven patchwork",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 09:40",
+  "location": { "area": "Andheri East", "lat": 19.1136, "lng": 72.8697 },
+  "media": { "image_path": "uploads/andheri_patch_1.jpg" }
+},
+{
+  "evidence_id": "EV-007",
+  "project_id": "MH-RD-001",
+  "issue_type": "Pothole reappeared after repair",
+  "severity": "High",
+  "timestamp": "2026-01-14 10:15",
+  "location": { "area": "Andheri East", "lat": 19.1142, "lng": 72.8704 },
+  "media": { "image_path": "uploads/andheri_pothole_2.jpg" }
+},
+{
+  "evidence_id": "EV-008",
+  "project_id": "MH-RD-002",
+  "issue_type": "Minor cracks on road surface",
+  "severity": "Low",
+  "timestamp": "2026-01-14 11:05",
+  "location": { "area": "Bandra West", "lat": 19.0596, "lng": 72.8295 },
+  "media": { "image_path": "uploads/bandra_cracks_1.jpg" }
+},
+{
+  "evidence_id": "EV-009",
+  "project_id": "MH-RD-002",
+  "issue_type": "Open potholes near junction",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 11:35",
+  "location": { "area": "Bandra West", "lat": 19.0601, "lng": 72.8301 },
+  "media": { "image_path": "uploads/bandra_pothole_2.jpg" }
+},
+{
+  "evidence_id": "EV-010",
+  "project_id": "MH-RD-004",
+  "issue_type": "Footpath tiles broken",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 12:10",
+  "location": { "area": "Dadar", "lat": 19.0176, "lng": 72.8562 },
+  "media": { "image_path": "uploads/dadar_footpath_1.jpg" }
+},
+{
+  "evidence_id": "EV-011",
+  "project_id": "MH-RD-004",
+  "issue_type": "Construction debris not cleared",
+  "severity": "Low",
+  "timestamp": "2026-01-14 12:35",
+  "location": { "area": "Dadar", "lat": 19.0182, "lng": 72.8567 },
+  "media": { "image_path": "uploads/dadar_debris_2.jpg" }
+},
+{
+  "evidence_id": "EV-012",
+  "project_id": "MH-RD-003",
+  "issue_type": "Water logging after rainfall",
+  "severity": "High",
+  "timestamp": "2026-01-14 13:20",
+  "location": { "area": "Kurla", "lat": 19.0726, "lng": 72.8845 },
+  "media": { "image_path": "uploads/kurla_waterlog_1.jpg" }
+},
+{
+  "evidence_id": "EV-013",
+  "project_id": "MH-RD-003",
+  "issue_type": "Drain cover missing",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 13:50",
+  "location": { "area": "Kurla", "lat": 19.0733, "lng": 72.8852 },
+  "media": { "image_path": "uploads/kurla_drain_2.jpg" }
+},
+{
+  "evidence_id": "EV-014",
+  "project_id": "MH-RD-005",
+  "issue_type": "Incomplete resurfacing near society gate",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 14:10",
+  "location": { "area": "Powai", "lat": 19.1176, "lng": 72.9057 },
+  "media": { "image_path": "uploads/powai_incomplete_1.jpg" }
+},
+{
+  "evidence_id": "EV-015",
+  "project_id": "MH-RD-005",
+  "issue_type": "Loose gravel on road",
+  "severity": "Low",
+  "timestamp": "2026-01-14 14:35",
+  "location": { "area": "Powai", "lat": 19.1182, "lng": 72.9061 },
+  "media": { "image_path": "uploads/powai_gravel_2.jpg" }
+},
+{
+  "evidence_id": "EV-016",
+  "project_id": "MH-RD-009",
+  "issue_type": "Drainage work unfinished",
+  "severity": "High",
+  "timestamp": "2026-01-14 15:05",
+  "location": { "area": "Ghatkopar", "lat": 19.0860, "lng": 72.9081 },
+  "media": { "image_path": "uploads/ghatkopar_drain_1.jpg" }
+},
+{
+  "evidence_id": "EV-017",
+  "project_id": "MH-RD-010",
+  "issue_type": "Uneven road surface",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 15:25",
+  "location": { "area": "Chembur", "lat": 19.0626, "lng": 72.9005 },
+  "media": { "image_path": "uploads/chembur_uneven_1.jpg" }
+},
+{
+  "evidence_id": "EV-018",
+  "project_id": "MH-RD-011",
+  "issue_type": "Barricades left on road",
+  "severity": "Low",
+  "timestamp": "2026-01-14 15:55",
+  "location": { "area": "Sion", "lat": 19.0464, "lng": 72.8619 },
+  "media": { "image_path": "uploads/sion_barricade_1.jpg" }
+},
+{
+  "evidence_id": "EV-019",
+  "project_id": "MH-RD-012",
+  "issue_type": "Pothole near bus stop",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 16:05",
+  "location": { "area": "Vikhroli", "lat": 19.1100, "lng": 72.9350 },
+  "media": { "image_path": "uploads/vikhroli_pothole_1.jpg" }
+},
+{
+  "evidence_id": "EV-020",
+  "project_id": "MH-RD-013",
+  "issue_type": "Streetlight not working",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 16:30",
+  "location": { "area": "Andheri West", "lat": 19.1364, "lng": 72.8296 },
+  "media": { "image_path": "uploads/andheriwest_light_1.jpg" }
+},
+{
+  "evidence_id": "EV-021",
+  "project_id": "MH-RD-014",
+  "issue_type": "Road patch peeling off",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 17:00",
+  "location": { "area": "Colaba", "lat": 18.9067, "lng": 72.8147 },
+  "media": { "image_path": "uploads/colaba_patch_1.jpg" }
+},
+{
+  "evidence_id": "EV-022",
+  "project_id": "MH-RD-015",
+  "issue_type": "Potholes during ongoing work",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 17:25",
+  "location": { "area": "Mulund West", "lat": 19.1726, "lng": 72.9560 },
+  "media": { "image_path": "uploads/mulund_pothole_1.jpg" }
+},
+{
+  "evidence_id": "EV-023",
+  "project_id": "MH-RD-008",
+  "issue_type": "Footpath uneven and unsafe",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 18:05",
+  "location": { "area": "Borivali West", "lat": 19.2290, "lng": 72.8567 },
+  "media": { "image_path": "uploads/borivali_footpath_1.jpg" }
+},
+{
+  "evidence_id": "EV-024",
+  "project_id": "MH-RD-007",
+  "issue_type": "Poor quality pothole filling",
+  "severity": "Medium",
+  "timestamp": "2026-01-14 18:30",
+  "location": { "area": "Malad West", "lat": 19.1864, "lng": 72.8484 },
+  "media": { "image_path": "uploads/malad_fill_1.jpg" }
+},
+{
+  "evidence_id": "EV-025",
+  "project_id": "MH-RD-006",
+  "issue_type": "Cracks visible after completion",
+  "severity": "Low",
+  "timestamp": "2026-01-14 19:00",
+  "location": { "area": "Goregaon East", "lat": 19.1663, "lng": 72.8526 },
+  "media": { "image_path": "uploads/goregaon_cracks_1.jpg" }
+}
+
+
+]
+
